@@ -30,3 +30,4 @@ For Ubuntu:
    php_admin_value open_basedir none
    ```      
 1. Save
+1. Restart the apache2/httpd
