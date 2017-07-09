@@ -4,6 +4,9 @@ Set "open_basedir" to none for VestaCP, solves some libraries are not working in
 
 ## New Website
 
+1. Put all files in the following path.
+2. Restart the apache2/httpd.
+
 For CentOS:
   ```
   /usr/local/vesta/data/templates/web/httpd/
@@ -12,6 +15,7 @@ For Ubuntu:
   ```
   /usr/local/vesta/data/templates/web/apache2/
   ```  
+  
 ## Existing Website
 
 1. Go to /home/<username>/conf/web
