@@ -18,15 +18,15 @@ For Ubuntu:
 1. Open httpd.conf (For HTTP)
 1. Find all "open_basedir"
 1. Change the line to:
-  ```
-  php_admin_value open_basedir none
-  ```     
+   ```
+   php_admin_value open_basedir none
+   ```     
 1. Save
 
 1. Open shttpd.conf (For HTTPS)
 1. Find all "open_basedir"
 1. Change the line to:
-  ```
-  php_admin_value open_basedir none
-  ```      
+   ```
+   php_admin_value open_basedir none
+   ```      
 1. Save
