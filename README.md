@@ -1,5 +1,5 @@
 # vestacp-openbasedir-to-none
-VestaCP set "open_basedir" to none, solve the problems like PHPExcel
+Set "open_basedir" to none for VestaCP, solves some libraries are not working in VestaCP such as PHPExcel.
 
 
 ## New Website
