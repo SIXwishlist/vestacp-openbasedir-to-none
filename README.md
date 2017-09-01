@@ -1,8 +1,13 @@
 # vestacp-openbasedir-to-none
 Set "open_basedir" to none for VestaCP, solves some libraries are not working in VestaCP such as PHPExcel.
 
+## Installer
 
-## New Website
+```
+wget -O - https://raw.githubusercontent.com/louislam/vestacp-openbasedir-to-none/master/install.sh | bash
+```
+
+## New Website (Manually Install)
 
 1. Put all files in the following path.
 2. Restart the apache2/httpd.
@@ -18,7 +23,7 @@ For Ubuntu:
   
 ## Existing Website
 
-1. Go to /home/<username>/conf/web
+1. Go to /home/{username}/conf/web
 1. Open httpd.conf (For HTTP)
 1. Find all "open_basedir"
 1. Change the line to:
